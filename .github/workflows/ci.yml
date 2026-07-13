@@ -33,3 +33,13 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+  docker:
+    name: Docker image
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build image
+        run: docker build -t rest-api-jwt-auth:ci .

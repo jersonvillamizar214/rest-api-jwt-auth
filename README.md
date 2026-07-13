@@ -1,5 +1,7 @@
 # REST API with JWT Authentication
 
+[![CI](https://github.com/jersonvillamizar214/rest-api-jwt-auth/actions/workflows/ci.yml/badge.svg)](https://github.com/jersonvillamizar214/rest-api-jwt-auth/actions/workflows/ci.yml)
+
 A production-ready REST API demonstrating secure authentication with JSON Web Tokens, built with a clean, layered architecture.
 
 > Part of my developer portfolio — showcasing backend fundamentals: authentication, validation, error handling, testing, and containerization.
